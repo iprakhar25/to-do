@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yours todo</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+
+    <header>
+        <div id="time"></div>
+        <div class="din">
+            <div id="date"></div>
+            <span id="weekday"></span>
+        </div>
+        <h1>add your task</h1>
+        <form id="form-task">
+            <input type="text" name="form-task-input" id="form-task-input" />
+            <button type="submit" id="form-task-submit">
+                <img src="add.png" alt="Add Task" >
+            </button>
+        </form>
+    </header>
+
+    <main>
+        <section class="task-list">
+            <h2>tasks</h2>
+
+            <div id="tasks">
+
+            </div>
+        </section>
+    </main>
+  
+    <script src="script.js"></script>
+</body>
+</html>
